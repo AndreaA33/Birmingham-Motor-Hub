@@ -1,0 +1,119 @@
+.main-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+}
+
+.main-navbar-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-right: 30px;
+}
+
+.main-navbar-centrelinks {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 40%;
+}
+
+.main-navbar-link {
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: inherit;
+    transition: 0.25s;
+    cursor: pointer;
+    background: none;
+}
+
+.main-navbar-sidebutton {
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.3em 0.5em;
+    font-size: 1em;
+    font-weight: 620;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    background-color: white;
+    text-align: center;
+}
+
+.main-navbar-sidebutton:hover {
+    border-color: #AFB8C1;
+    color: #829CBC;
+}
+
+.main-navbar-link:hover {
+    background: #567499;
+}
+
+.main-navbar-buttons-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: border-color 0.25s;
+    border: white solid 2px;
+}
+
+.main-navbar-buttons-profile:hover {
+    opacity: 0.8;
+    border: #829CBC solid 2px;
+    cursor: pointer;
+}
+
+.navbarscroll {
+    background: rgba(110, 110, 110, 0.648);
+    z-index: 10;
+}
+
+.popup{
+    width: 400px;
+    background-color: white;
+    color: black;
+    border: solid black 3px;
+    border-radius: 20px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 40%;
+}
+
+.popup-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 850px) {
+    .main-navbar-centrelinks {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .main-navbar-buttons {
+        padding: 0;
+    }
+
+    .main-navbar{
+        justify-content: space-between;
+    }
+    .main-navbar .main-navbar-buttons {
+        padding-right: 20px;
+    }
+}

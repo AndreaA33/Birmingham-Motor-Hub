@@ -1,0 +1,100 @@
+.main-profile-savedcars{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.main-profile-savedcars-title{
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.main-profile-details-savedcars-imgs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    padding: 30px;
+}
+
+.main-profile-details-savedcars-img{
+    width: 200px;
+    height: 150px;
+    border-radius: 100%;
+    
+}
+
+.main-profile-details-savedcars-cardets{
+    background-color: rgba(30,30,30,05);
+    color: white;
+}
+
+.main-profile-details-savedcars-imgs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: rgba(30,30,30) solid 2px;
+    border-radius: 10px;
+}
+
+.main-profile-details-savedcars-imgs-container:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.main-profile-details-savedcars-imgs-empty{
+    visibility: hidden;
+}
+
+.main-profile-details-savedcars-imgs-container-remove{
+    color: red;
+    font-weight: 500;
+    z-index: 10;
+    position: relative;
+    top: 5%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+}
+
+.main-profile-details-savedcars-imgs-container-remove:hover{
+    cursor: pointer;
+    background-color: rgba(228, 61, 61, 0.364);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    border-radius: 10px;
+    border: rgb(219, 130, 130) solid 2px;
+    background-color: #cecece76;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}  
+
+.popup-button-container{
+    display: flex;
+    gap: 20px;
+}
+
+.confirmButton:hover{
+    background-color: rgb(219, 130, 130);
+    cursor: pointer;
+}
+
+.cancelButton:hover{
+    cursor: pointer;
+}

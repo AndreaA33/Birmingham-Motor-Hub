@@ -1,0 +1,88 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-profile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 110vh;
+    background: black;
+}
+
+.main-profile-details-title{
+    font-size: 60px;
+    color: white;
+    padding-right: 84%;
+    font-family: "Roboto Mono";
+}
+
+.main-profile-details{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    flex-wrap: wrap;
+    background: white;
+    border-radius: 20px;
+}
+
+
+.main-profile-details-maintag{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.main-profile-details-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.main-profile-details-name{
+    top: 10%;
+    left: 10%;
+    font-size: 40px;
+    color: black;
+}
+
+.main-profile-details-maintag button{
+    height: 40px;
+    border: solid black 1px;
+}
+
+
+.main-profile-details-profileImageoverlay{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    position: absolute;
+    top: 25.8%;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-profile-details-profileImageoverlay:hover{
+    opacity: 1;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(30,30,30,0.5);
+    cursor: pointer;
+}
+
+@media (min-width: 1880px){
+    .main-profile-details-profileImageoverlay{
+        top: 22.5%;
+    }
+}

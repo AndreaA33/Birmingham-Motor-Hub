@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-Tracklist{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 190vh;
+    background: black;
+}
+
+.main-Tracklist-title{
+    left: 30px;
+    font-size: 60px;
+    color: white;
+    padding-right: 81%;
+    font-family: "Roboto Mono";
+}
+
+.main-Tracklist-subtitle{
+    color: white;
+    position: relative;
+    font-size: 40px;
+    top: -50px;
+    font-family: "Roboto Mono";
+}
+
+.main-Tracklist-container{
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 80%;
+}
+
+.main-Tracklist-pagerow{
+    height: 30%;
+    width: 80%;
+    border-radius: 7px;
+    background: black;
+    cursor: pointer;
+    border: solid white 2px;
+}
+
+.main-Tracklist-pagerow-img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.main-Tracklist-pagerow:hover{
+    border: solid #829CBC 2px;
+    opacity: 0.8;
+}
+
+.main-Tracklist-pagerow-name{
+    position: relative;
+    top: -35%;
+    height: 90px;
+    border-radius: 0 0 7px 7px;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.main-Tracklist-p{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    top: -5%;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+@media (min-width: 1880px) {
+    .main-Tracklist-pagerow-name{
+        top: -31%;
+    }
+
+}

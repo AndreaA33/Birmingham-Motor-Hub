@@ -1,0 +1,14 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-track1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 175vh;
+    background: black;
+}

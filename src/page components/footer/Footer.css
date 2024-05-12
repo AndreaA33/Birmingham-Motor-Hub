@@ -1,0 +1,104 @@
+.main-footer{
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 200%;
+    color: white;
+    z-index: -1;
+    border-top: white solid 2px;
+    
+}
+
+.main-footer-title1{
+    background: #5B5B5B;
+    width: 110px;
+    padding: 2px;
+    position: absolute;
+    margin-left: 30px;
+    font-family: "Roboto Mono";
+    text-align: center;
+}
+
+.main-footer-title2{
+    margin-left: 130px;
+    position: absolute;
+    top: 14%;
+    background: white;
+    color: black;
+    padding: 2px;
+    text-align: center;
+    font-family: "Roboto Mono";
+}
+
+.main-footer-title3{
+    background: #5B5B5B;
+    width: 50px;
+    padding: 2px;
+    position: absolute;
+    top: 28%;
+    text-align: center;
+    margin-left: 100px;
+    font-family: "Roboto Mono";
+}
+
+.main-footer-company{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer-company p:hover{
+    cursor: pointer;
+}
+
+.main-footer-support{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer-support p:hover{
+    cursor: pointer;
+}
+
+.main-footer-stayconnected{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer-stayconnected-email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.main-footer-links{
+    display: flex;
+    flex-direction: row;
+    padding-left: 500px;
+    gap: 150px;
+}
+
+.main-footer-stayconnected p{
+    width: 200px;
+}
+
+.main-footer-stayconnected-email input{
+    border-radius: 0 0 0 0;
+    height: 29px;
+
+}
+
+.main-footer-stayconnected-button{
+    border-radius: 0 0 0 0;
+    height: 35px;
+    border: white solid 2px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 10%;
+}
+
+.main-footer-stayconnected-button:hover{
+    cursor: pointer;
+    color: #829CBC;
+}

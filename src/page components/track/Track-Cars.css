@@ -1,0 +1,259 @@
+.main-track-cars{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+    border-top: white solid 2px
+}
+
+.main-track-cars-desc{
+    display: flex;
+    flex-direction: row;
+    height: 65vh;
+    border: 2px solid white;
+    margin-right: 10px;
+    width: 90%;
+}
+
+.main-track-cars-desc-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.main-track-cars-desc-slider-image{
+    object-fit: fill;
+    border-radius: 20px;
+}
+
+.main-track-cars-desc-slider-active{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.main-track-cars-desc-slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+
+
+
+.main-track-cars-desc-infobutton{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-track-cars-desc-images-left_arrow{
+    position: absolute;
+    padding: 7px 15px 7px 15px;
+    left: 5%;
+    font-size: 30px;
+    top: 103%;
+    cursor: pointer;
+    z-index: 50;
+    color: #DFECFF;
+    height: 525px
+}
+
+.main-track-cars-desc-images-right_arrow{
+    position: absolute;
+    padding: 7px 15px 7px 15px;
+    right: 5%;
+    font-size: 30px;
+    top: 103%;
+    cursor: pointer;
+    color: #DFECFF;
+    height: 525px
+}
+
+.main-track-cars-desc-images-right_arrow:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+.main-track-cars-desc-images-left_arrow:hover{
+    background-color: rgba(128, 128, 128, 0.5)
+}
+
+.main-track-cars-desc-specs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    height: 40px;
+    color: #DFECFF;
+    
+}
+
+.main-track-cars-desc-specs button{
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 9%;
+    left: 80%;
+    cursor: pointer;
+}
+
+
+.main-track-cars-title{
+    font-size: 60px;
+    color: white;
+    font-family: "Roboto Mono";
+}
+
+.main-track-cars-desc-specs h2{
+    color: rgb(178, 227, 255);
+}
+
+.main-track-cars-desc-specs p{
+    color: white; 
+    font-size: 22px;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+
+.slidecontainer:hover {
+    opacity: 1;
+}
+
+.main-track-cars-desc-infobutton{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 0.8em;
+    font-weight: 700;
+    font-family: inherit;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: black;
+    text-decoration: none;
+    z-index: 5;
+    text-align: center;
+    position: absolute;
+    top: 105%;
+    right: 6.8%;
+}
+
+.main-track-cars-desc-infobutton:hover{
+    transition: border-color 0.25s;
+    color: #829CBC;
+}
+
+.main-track-cars-desc-specs-notactive{
+    display: flex;
+    height: 100vh;
+    position: fixed;
+    right:-50%;
+    transition: 850ms;
+    top: 98.5%;
+}
+
+.main-track-cars-desc-specs-active{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px 0 0 20px;
+    border: 2px solid white;
+    margin-top: 20px;
+    z-index: 1;
+    width: 20%;
+    right: 5%;
+    transition: 550ms;
+    position: absolute;
+    height: 57.5vh;
+    top: 100.5%;
+}
+
+.main-track-cars-index{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.savedpopup{
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.642);
+    color: black;
+    border: solid black 3px;
+    border-radius: 20px;
+    height: 40px;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.savedpopup-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1880px) {
+    .main-track-cars-desc-images-left_arrow,
+    .main-track-cars-desc-images-right_arrow {
+        font-size: 20px;
+    }
+  
+    .main-track-cars-desc-infobutton {
+        right: 7.3%;
+        top: 96%;
+    }
+
+    .main-track-cars-desc-specs-active{
+        top: 92%;
+        height: 58.8vh;
+    }
+
+    .main-track-cars-desc-images-right_arrow{
+        height: 600px;
+        top: 94.5%;
+    }
+
+    .main-track-cars-desc-images-left_arrow{
+        height: 600px;
+        top: 94.5%;
+    }
+}
+
+@media (max-width: 1500px ) {
+    .main-track-cars-desc-infobutton {
+        right: 6.8%;
+        top: 102%;
+    }
+
+    .main-track-cars-desc-images-right_arrow{
+        height: 522px;
+        top: 100.5%;
+    }
+
+    .main-track-cars-desc-images-left_arrow{
+        height: 522px;
+        top: 100.5%;
+    }
+
+    .main-track-cars-desc-specs-active{
+        top: 98%;
+        height: 57.8vh;
+    }
+}

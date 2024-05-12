@@ -1,0 +1,117 @@
+.main-eventsComp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 10%;
+    height: 100%;
+    position: absolute;
+    background: black;
+    top: 82.7%;
+    z-index: -3;
+}
+
+.main-events-image-active{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 70vh;
+    width: 80%;
+    border-radius: 10px;
+    z-index: -3;
+    position: absolute;
+    top: 17%;
+    border: 1px solid white;
+}
+
+
+.main-events-info h2{
+    position: absolute;
+    font-size: 40px;
+    top: 1%;
+}
+
+.main-events-info p{
+    position: absolute;
+    font-size: 20px;
+    width: 70%;
+    font-weight: 500;
+    top: 35%;
+}
+
+.main-events-image{
+    object-fit: fill;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main-events-index{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: auto;
+    left: 44%;
+    font-size: 20px;
+    position: absolute;
+    top: 87%;
+}
+
+.main-events-index-active{
+    color: #E05608;
+}
+
+.main-events-index-notactive{
+    color: white;
+}
+
+.main-events-left_arrow{
+    position: absolute;
+    padding: 20px;
+    left: 4.5%;
+    font-size: 30px;
+    top: 47%;
+    cursor: pointer;
+    color: black;
+    background-color: rgba(128, 128, 128);
+    border-radius: 100%;
+    z-index: -2;
+}
+
+.main-events-right_arrow{
+    position: absolute;
+    padding: 20px;
+    right: 4.5%;
+    font-size: 30px;
+    top: 47%;
+    cursor: pointer;
+    color: black;
+    background-color: rgba(128, 128, 128);
+    border-radius: 100%;
+    z-index: -2;
+}
+
+.main-events-right_arrow:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+.main-events-left_arrow:hover{
+    background-color: rgba(128, 128, 128, 0.5)
+}
+
+.main-events-title{
+    top: 100%;
+    font-size: 60px;
+    color: white;
+    z-index: -1;
+    padding-right: 78%;
+    font-family: "Roboto Mono";
+}
+
+.main-events-info{
+    position: absolute;
+    width: 100%;
+    background: rgba(217,217,217,0.5);
+    top: 60%;
+    height: 40%;
+    padding-left: 2px;
+}

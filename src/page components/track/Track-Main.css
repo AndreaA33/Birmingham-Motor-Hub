@@ -1,0 +1,90 @@
+.main-track-main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 55px;
+}
+
+.main-track-main-desc{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 60px;
+
+}
+
+.main-track-main-image{
+    display: flex;
+    height: 60vh;
+    margin-top: 40px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-track-main-image1{
+    height: 50vh;
+}
+
+.main-track-main-desc h1{
+    color: white;
+}
+
+.main-track-main-desc h3{
+    color: white;
+    font-size: 30px;
+}
+
+.main-track-main-desc button{
+    width: 110px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.main-track-main-desc-p{
+    border-radius: 3px;
+    height: 40%;
+    width: 300px;
+    margin-bottom: 20px;
+    border: 2px solid #DFECFF;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(33,33,33,1);
+}
+
+.main-track-main-title{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 60px;
+    color: white;
+    font-family: "Roboto Mono";
+}
+
+.slidecontainer{
+    width: 10%;
+}
+
+.main-track-main-desc-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.main-track-main-desc-speedtag{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.main-track-main-startarrow{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 64%;
+    left: 25%;
+}

@@ -66,14 +66,14 @@ function NavBar() {
         <nav className={"main-navbar"} id={"navbar"}>
             <SideBar/>
             <div className={"main-navbar-centrelinks"}>
-                <button className={"main-navbar-link"} onClick={location.pathname === "/home" ? handleToHome:redirectToHome}>Home</button>
+                <button className={location.pathname == "/home" ? "main-navbar-link-active" : "main-navbar-link"} onClick={location.pathname === "/home" ? handleToHome:redirectToHome}>Home</button>
                 <button className={"main-navbar-link"} onClick={location.pathname === "/home" ? handleToEvents:redirectToEvents}>Events</button>
-                <button className={"main-navbar-link"} onClick={redirectToTrackList}>Tracks</button>
+                <button className={location.pathname === '/tracklist' ? "main-navbar-link-active" : "main-navbar-link"} onClick={redirectToTrackList}>Tracks</button>
             </div>
             <div className={"main-navbar-buttons"}>
                 <button className={"main-navbar-sidebutton"}><CgSearch style={{fontSize: 12}}/></button>
                 <button className={"main-navbar-sidebutton"} onClick={handleLogout}>Logout</button>
-                <img src={Car1} alt={"Profile pic"} className={"main-navbar-buttons-profile"} onClick={redirectToProfile}/>
+                <img src={Car1} alt={"Profile pic"} className={location.pathname == "/profile" ? "main-navbar-buttons-profile-active" : "main-navbar-buttons-profile"} onClick={redirectToProfile}/>
             </div>
         </nav>
     )

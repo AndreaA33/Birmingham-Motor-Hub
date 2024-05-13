@@ -67,7 +67,15 @@
     height: 40px;
     border-radius: 50%;
     transition: border-color 0.25s;
-    border: white solid 2px;
+    border: white solid 3px;
+}
+
+.main-navbar-buttons-profile-active{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: border-color 0.25s;
+    border: #465669 solid 3px;
 }
 
 .main-navbar-buttons-profile:hover {
@@ -98,6 +106,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.main-navbar-link-active{
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: inherit;
+    transition: 0.25s;
+    cursor: pointer;
+    background-color: #465669;
 }
 
 @media (max-width: 850px) {

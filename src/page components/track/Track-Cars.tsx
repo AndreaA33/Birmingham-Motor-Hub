@@ -44,6 +44,7 @@ function TrackCars() {
                 <div className={"main-track-cars-desc-images"}>
                     <TbIcons.TbArrowBadgeLeft className={"main-track-cars-desc-images-left_arrow"} onClick={prevslide}/>
                     <TbIcons.TbArrowBadgeRight className={"main-track-cars-desc-images-right_arrow"} onClick={nextslide}/>
+                    <button className="addbutton" onClick={() => {const savecar = document.getElementById('savecar'); savecar != null ? savecar.click() : ""}}>+</button>
                     <div className="main-track-cars-desc-slider">
                     {TrackCarsData.map((slide,index) => {
                         return (
@@ -52,7 +53,7 @@ function TrackCars() {
                                 {index === current && <div className={activedesc ? "main-track-cars-desc-specs-active" : "main-track-cars-desc-specs-notactive"}>
                                     <div className={"main-track-cars-desc-specs"}>
                                         <h2 style={{color: slide.color}}>{slide.title}</h2>
-                                        <button className="mainbutton" onClick={() => handlesave(slide.title,slide.image,slide.alt,slide.color)}>+</button>
+                                        <button id={"savecar"} className="mainbutton" onClick={() => handlesave(slide.title,slide.image,slide.alt,slide.color)}>+</button>
                                         <p>Engine - {slide.engine} </p>
                                         <p>Max speed - {slide.maxspeed}</p>
                                         <p>0-60 mph - {slide.zerotosixty}</p>

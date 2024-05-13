@@ -25,7 +25,7 @@ function Tracklist() {
                 </div>
                 <div className={"main-Tracklist-pagerow"}>
                     <img src={trackimg1} alt={"track 1 image"} className={"main-Tracklist-pagerow-img"}/>
-                    <h3 className={"main-Tracklist-pagerow-name"}>Track name</h3>
+                    <h3 className={"main-Tracklist-pagerow-name"}>Wolverhampton Racecourse</h3>
                 </div>
             </div>
         </div>

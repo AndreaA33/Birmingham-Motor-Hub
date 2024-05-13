@@ -218,6 +218,8 @@
     height: 40px;
     border-radius: 30%;
     font-size: 30px;
+    color: orangered;
+    border: solid orangered 2px;
 }
 
 .addbutton:hover{

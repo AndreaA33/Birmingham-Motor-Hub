@@ -7,6 +7,7 @@ function SavedCars() {
     const [alt,setAlt] = useState("")
     const [title,setTtle] = useState("")
     const [popup, setPopup] = useState(false)
+    const [undopopup, setUndopopup] = useState(false)
 
     function redirectToTrack(){
         window.location.href = "/track1"
@@ -22,14 +23,29 @@ function SavedCars() {
     }, []);
 
     function handleDelete() {
-        localStorage.removeItem("Title")
-        localStorage.removeItem("Image")
-        localStorage.removeItem("Alt")
-        window.location.reload();
+        setPopup(!popup)
+        setUndopopup(true)
+
+        setTimeout(() => {
+            setUndopopup((prevUndopopup) => {
+                if (prevUndopopup === true) {
+                  localStorage.removeItem("Title");
+                  localStorage.removeItem("Image");
+                  localStorage.removeItem("Alt");
+                  window.location.reload();
+                }
+                return false;
+            });
+        }, 3000);;
     }
+    
 
     function handlepopup() {
         setPopup(!popup)
+    }
+
+    function handleundo(){
+        setUndopopup(false);
     }
 
     return (
@@ -56,6 +72,13 @@ function SavedCars() {
                         </div>
                 </div>
             }
+            {undopopup && (
+                <div className="undopopup" onClick={handleundo}>
+                    <div className="undopopup-content">
+                        <h3>Undo</h3>
+                    </div>
+                </div>
+            )}
         </div>
     );
 }

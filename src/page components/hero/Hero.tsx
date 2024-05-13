@@ -24,7 +24,7 @@ function Main() {
             <h1 className={"main-hero-txt2"}>MOTOR</h1>
             <h1 className={"main-hero-txt3"}>HUB</h1>
             <p className={"main-hero-txt4"}>Revitalize Your Passion for Cars: Explore Birmingham's Premier Hub for Auto Enthusiasts</p>
-            <img className={"main-hero-background"} src={background}></img>
+            <img className={"main-hero-background"} src={background} alt="Home page background"/>
         </div>
     );
 }

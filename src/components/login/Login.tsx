@@ -57,7 +57,7 @@ function Login() {
 
     return (
         <div className="main-LogandReg-container">
-            <img src={bg1}></img>
+            <img src={bg1} alt={"Login and Register page background"}/>
             <div className='card-container'>
                 <div className={`flipper`}>
                     <div className="main-login-form">

@@ -73,7 +73,7 @@ function NavBar() {
             <div className={"main-navbar-buttons"}>
                 <button className={"main-navbar-sidebutton"}><CgSearch style={{fontSize: 12}}/></button>
                 <button className={"main-navbar-sidebutton"} onClick={handleLogout}>Logout</button>
-                <img src={Car1} alt={"Profile pic"} className={location.pathname == "/profile" ? "main-navbar-buttons-profile-active" : "main-navbar-buttons-profile"} onClick={redirectToProfile}/>
+                <img src={Car1} alt={"Profile picture"} className={location.pathname == "/profile" ? "main-navbar-buttons-profile-active" : "main-navbar-buttons-profile"} onClick={redirectToProfile}/>
             </div>
         </nav>
     )

@@ -16,15 +16,15 @@ function Tracklist() {
             <p className={"main-Tracklist-p"}>Drive cars and save them to your profile</p>
             <div className={"main-Tracklist-container"}>
                 <div className={"main-Tracklist-pagerow"}>
-                    <img src={trackimg1} alt={"track 1 image"} className={"main-Tracklist-pagerow-img"} onClick={redirectToTrack}/>
+                    <img src={trackimg1} alt={"race track 1 image"} className={"main-Tracklist-pagerow-img"} onClick={redirectToTrack}/>
                     <h3 className={"main-Tracklist-pagerow-name"}>CURBOROUGH SPRINT COURSE</h3>
                 </div>
                 <div className={"main-Tracklist-pagerow"}>
-                    <img src={trackimg2} alt={"track 1 image"} className={"main-Tracklist-pagerow-img"}/>
+                    <img src={trackimg2} alt={"race track 2 image"} className={"main-Tracklist-pagerow-img"}/>
                     <h3 className={"main-Tracklist-pagerow-name"}>BIRMINGHAM WHEELS RACEWAY</h3>
                 </div>
                 <div className={"main-Tracklist-pagerow"}>
-                    <img src={trackimg1} alt={"track 1 image"} className={"main-Tracklist-pagerow-img"}/>
+                    <img src={trackimg1} alt={"race track 3 image"} className={"main-Tracklist-pagerow-img"}/>
                     <h3 className={"main-Tracklist-pagerow-name"}>Wolverhampton Racecourse</h3>
                 </div>
             </div>

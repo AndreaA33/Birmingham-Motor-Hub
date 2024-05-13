@@ -98,3 +98,32 @@
 .cancelButton:hover{
     cursor: pointer;
 }
+
+.undopopup{
+    width: 150px;
+    background-color: rgba(90, 81, 81, 0.642);
+    color: black;
+    border: solid black 3px;
+    border-radius: 20px;
+    height: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.undopopup-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.undopopup:hover{
+    cursor: pointer;
+    color: #829CBC;
+    border: solid #829CBC 2px;
+}

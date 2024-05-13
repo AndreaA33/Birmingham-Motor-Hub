@@ -2,6 +2,7 @@ import NavBar from "../../page components/navbar/NavBar.tsx";
 import "./Tracklist.css"
 import trackimg1 from "../../assets/event1.jpeg"
 import trackimg2 from "../../assets/track2.jpg"
+import trackimg3 from "../../assets/track3.jpg"
 
 function Tracklist() {
     function redirectToTrack(){
@@ -24,8 +25,8 @@ function Tracklist() {
                     <h3 className={"main-Tracklist-pagerow-name"}>BIRMINGHAM WHEELS RACEWAY</h3>
                 </div>
                 <div className={"main-Tracklist-pagerow"}>
-                    <img src={trackimg1} alt={"race track 3 image"} className={"main-Tracklist-pagerow-img"}/>
-                    <h3 className={"main-Tracklist-pagerow-name"}>Wolverhampton Racecourse</h3>
+                    <img src={trackimg3} alt={"race track 3 image"} className={"main-Tracklist-pagerow-img"}/>
+                    <h3 className={"main-Tracklist-pagerow-name"}>Birmingham International Raceway</h3>
                 </div>
             </div>
         </div>

@@ -17,12 +17,12 @@ export default function Mapcomp() {
         <h1>NETHERSTOWE LN LICHFIELD</h1> 
         <h1>WS13 8EJ</h1>
       </div>
-        <APIProvider apiKey="AIzaSyBieu0eUbpjvITipx-X-NCI3IUfKF5EVGM">
+        <APIProvider apiKey = {""}>
         <div className={"mapcomp-main-map"}>
             <Map defaultCenter={location} defaultZoom={15}>
               <Marker position={location}/>
             </Map>
-          </div>
+        </div>
         </APIProvider>
     </div>
   )

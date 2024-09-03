@@ -1,5 +1,5 @@
 # ScreenTime Manager App **(STILL IN DEVELOPMENT)**
-My Website is tailored to Car Hobbyists travelling to and visiting the city of Birmingham. One of my main motivations for making such a website is Birmingham's strong car community; with passionate individuals who appreciate classic cars and supercars
+My Website is tailored to Car Hobbyists travelling to and visiting the city of Birmingham. One of my main motivations for making such a website is Birmingham's strong car community; with passionate individuals who appreciate classic cars and supercars.
 This README will guide you through the features and functionalities of the app, helping you get started and make the most out of it.
 ![Birmingham Motor Hub image](./src/assets/BMHimg.png)
 ## Table of Contents

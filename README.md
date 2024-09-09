@@ -11,7 +11,7 @@ This README will guide you through the features and functionalities of the app, 
 ScreenTime Manager comes with a set of different features to help you manage your familys'' screen time effectively:
 
 - Login and register: Allows the user to save and track race tracks the have visited
-- Evennts
+- Events
 - Race tracks
 - Race track preview
 - Profile
